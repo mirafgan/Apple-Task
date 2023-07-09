@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Apple-Task/static/css/main.ee743819.css",
-    "main.js": "/Apple-Task/static/js/main.ce0773ef.js",
+    "main.js": "/Apple-Task/static/js/main.9735bef8.js",
     "index.html": "/Apple-Task/index.html",
     "main.ee743819.css.map": "/Apple-Task/static/css/main.ee743819.css.map",
-    "main.ce0773ef.js.map": "/Apple-Task/static/js/main.ce0773ef.js.map"
+    "main.9735bef8.js.map": "/Apple-Task/static/js/main.9735bef8.js.map"
   },
   "entrypoints": [
     "static/css/main.ee743819.css",
-    "static/js/main.ce0773ef.js"
+    "static/js/main.9735bef8.js"
   ]
 }
