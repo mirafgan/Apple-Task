@@ -28,6 +28,6 @@ jobs:
         git config user.email "mirefqan1999@gmail.com"
         git config user.name "mirafgan"
         git remote set-url origin https://git:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git
-        npm run deploy -- -u "github-actions-bot <support+actions@github.com>"
+        npx gh-pages -d build -u "github-actions-bot <support+actions@github.com>"
       env:
         GITHUB_TOKEN: ${{ secrets.TOKEN }}
