@@ -12,11 +12,13 @@ const Routing = () => {
                 <Route path="/" element={<Auth><DashboardPage /></Auth>} />
                 <Route path="/register" element={<RegisterPage />} />
             </>
-        )
+        ), {
+            basename: '/Apple-Task'
+        }
     )
     return (
         <>
-            <RouterProvider router={router} />
+            <RouterProvider  router={router} />
         </>
     )
 }
