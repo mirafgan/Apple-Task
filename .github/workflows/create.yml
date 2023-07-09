@@ -13,7 +13,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [16.x, 18.x]
+        node-version: [18.x]
     steps:
     - uses: actions/checkout@v3
     - name: Use Node.js ${{ matrix.node-version }}
@@ -25,6 +25,8 @@ jobs:
     - run: npm run build --if-present
     - name: Deploy with gh-pages
       run: |
+        git config user.email "mirefqan1999@gmail.com"
+        git config user.name "mirafgan"
         git remote set-url origin https://git:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git
         npm run deploy -- -u "github-actions-bot <support+actions@github.com>"
       env:
