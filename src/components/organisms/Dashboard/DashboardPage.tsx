@@ -43,7 +43,7 @@ const DashboardPage = () => {
                 <div>
                     <Button className="button" onClick={handleOut}>Log Out</Button>
                 </div>
-                T</div>
+                </div>
             <div className="dashboard__main">
                 <div className="dashboard__main__top">
                     <Input
@@ -61,7 +61,6 @@ const DashboardPage = () => {
                     }
                 </TodoList>
             </div>
-
         </div>
     )
 }
