@@ -25,8 +25,6 @@ jobs:
     - run: npm run build --if-present
     - name: Deploy with gh-pages
       run: |
-        git config user.email "mirefqan1999@gmail.com"
-        git config user.name "mirafgan"
         git remote set-url origin https://git:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git
         npx gh-pages -d build -u "github-actions-bot <support+actions@github.com>"
       env:
