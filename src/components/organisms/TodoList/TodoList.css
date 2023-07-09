@@ -1,0 +1,17 @@
+.todolist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+}
+.todolist__item{
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+}
+.todolist__item__svg_ml-10{
+    margin-left: 10px;
+}
+.todolist__item__input-lt{
+    text-decoration: line-through;
+}

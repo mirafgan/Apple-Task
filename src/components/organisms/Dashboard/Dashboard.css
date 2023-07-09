@@ -1,0 +1,21 @@
+.dashboard {
+  padding: 20px;
+  background: #adacac;
+  display: flex;
+  flex-direction: column;
+}
+.dashboard__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dashboard__main{
+    background-color: #0b3a3d;
+    height: 50vh;
+}
+.dashboard__main__top{
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+  margin-top: 25px;
+}
